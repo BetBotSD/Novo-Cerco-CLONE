@@ -1,0 +1,2283 @@
+{
+  "version": 2,
+  "sports": {
+    "soccer": {
+      "pinnacle_sport_id": 1,
+      "esnet_sport_id": 102,
+      "day_mode": true,
+      "weekdays": {
+        "segunda": 574588,
+        "terça": 574908,
+        "terca": 574908,
+        "quarta": 574926,
+        "quinta": 575066,
+        "sexta": 575067,
+        "sábado": 574584,
+        "sabado": 574584,
+        "domingo": 574583
+      },
+      "leagues": [
+        {
+          "esnet_name": "África do Sul - Liga Principal",
+          "esnet_id": 100000513,
+          "pinnacle_id": 196763,
+          "pinnacle_name": "South Africa - PSL"
+        },
+        {
+          "esnet_name": "Alemanha - Bundesliga",
+          "esnet_id": 100000742,
+          "pinnacle_id": 1842,
+          "pinnacle_name": "Germany - Budesliga 1"
+        },
+        {
+          "esnet_name": "Alemanha - 2nd Bundesliga",
+          "esnet_id": 100000754,
+          "pinnacle_id": 1843,
+          "pinnacle_name": "Germany - Budesliga 2"
+        },
+        {
+          "esnet_name": "Alemanha - 3rd Liga",
+          "esnet_id": 100000729,
+          "pinnacle_id": 1844,
+          "pinnacle_name": "Germany - Budesliga 3"
+        },
+        {
+          "esnet_name": "Alemanha - Copa da Alemanha",
+          "esnet_id": 100000732,
+          "pinnacle_id": 2067,
+          "pinnacle_name": "Germany - Cup"
+        },
+        {
+          "esnet_name": "América do Norte - Copa da Liga",
+          "esnet_id": 100030724,
+          "pinnacle_id": 205939,
+          "pinnacle_name": "North America - Leagues Cup"
+        },
+        {
+          "esnet_name": "Arabia Saudita - Copa do Rei",
+          "esnet_id": 100016914,
+          "pinnacle_id": 198379,
+          "pinnacle_name": "Saudi Arabia - Kings Cup"
+        },
+        {
+          "esnet_name": "Arábia Saudita - Liga Profissional Saudita",
+          "esnet_id": 100002799,
+          "pinnacle_id": 10419,
+          "pinnacle_name": "Saudi Arabia - Pro League"
+        },
+        {
+          "esnet_name": "Arábia Saudita - Divisão 1",
+          "esnet_id": 100007068,
+          "pinnacle_id": 10600,
+          "pinnacle_name": "Saudi Arabia - Division 1"
+        },
+        {
+          "esnet_name": "Argélia - Liga 1",
+          "esnet_id": 100000509,
+          "pinnacle_id": 8667,
+          "pinnacle_name": "Algeria - Ligue 1"
+        },
+        {
+          "esnet_name": "Argentina - Copa",
+          "esnet_id": 100002675,
+          "pinnacle_id": 1741,
+          "pinnacle_name": "Argentina - Cup"
+        },
+        {
+          "esnet_name": "Argentina - Copa de La Liga",
+          "esnet_id": 100017534,
+          "pinnacle_id": 204784,
+          "pinnacle_name": "Argentina - League Cup"
+        },
+        {
+          "esnet_name": "Argentina - Superliga",
+          "esnet_id": 100001652,
+          "pinnacle_id": 210697,
+          "pinnacle_name": "Argentina - Liga Pro"
+        },
+        {
+          "esnet_name": "Argentina - Primera B",
+          "esnet_id": 100000421,
+          "pinnacle_id": 201149,
+          "pinnacle_name": "Argentina - Primera B Metropolitana"
+        },
+        {
+          "esnet_name": "Argentina - Primeira Nacional",
+          "esnet_id": 100000420,
+          "pinnacle_id": 1739,
+          "pinnacle_name": "Argentina - Primera B Nacional"
+        },
+        {
+          "esnet_name": "Austrália - A League",
+          "esnet_id": 100000396,
+          "pinnacle_id": 1766,
+          "pinnacle_name": "Australia - A League"
+        },
+        {
+          "esnet_name": "Austria - Bundesliga",
+          "esnet_id": 100000827,
+          "pinnacle_id": 1792,
+          "pinnacle_name": "Austria - Bundesliga"
+        },
+        {
+          "esnet_name": "Austria - 2ªLiga",
+          "esnet_id": 100001481,
+          "pinnacle_id": 1773,
+          "pinnacle_name": "Austria - 2. Liga"
+        },
+        {
+          "esnet_name": "Bahrein - Premier League",
+          "esnet_id": 100005439,
+          "pinnacle_id": 1797,
+          "pinnacle_name": ""
+        },
+        {
+          "esnet_name": "Bélgica - Copa da Bélgica",
+          "esnet_id": 100006155,
+          "pinnacle_id": 1819,
+          "pinnacle_name": "Belgium - Cup"
+        },
+        {
+          "esnet_name": "Bélgica - Primeira Divisão A",
+          "esnet_id": 100000394,
+          "pinnacle_id": 1817,
+          "pinnacle_name": "Belgium - Pro League"
+        },
+        {
+          "esnet_name": "Bolívia - Copa Division Profesional",
+          "esnet_id": 100027624,
+          "pinnacle_id": 224467,
+          "pinnacle_name": "Bolivia - Copa Division Profesional"
+        },
+        {
+          "esnet_name": "Bolívia - Primera Division",
+          "esnet_id": 100002506,
+          "pinnacle_id": 5595,
+          "pinnacle_name": "Bolivia - Primera Division"
+        },
+        {
+          "esnet_name": "Brasil - Alagoano",
+          "esnet_id": 100017570,
+          "pinnacle_id": 192685,
+          "pinnacle_name": "Brazil - Alagoano"
+        },
+        {
+          "esnet_name": "Brasil - Baiano",
+          "esnet_id": 100017508,
+          "pinnacle_id": 10769,
+          "pinnacle_name": "Brazil - Baiano"
+        },
+        {
+          "esnet_name": "Brasil - Capixaba",
+          "esnet_id": 100017894,
+          "pinnacle_id": 218547,
+          "pinnacle_name": "Brazil - Capixaba"
+        },
+        {
+          "esnet_name": "Brasil - Carioca",
+          "esnet_id": 100017677,
+          "pinnacle_id": 1852,
+          "pinnacle_name": "Brazil - Carioca"
+        },
+        {
+          "esnet_name": "Brasil - Cearense",
+          "esnet_id": 100017388,
+          "pinnacle_id": 10768,
+          "pinnacle_name": "Brazil - Cearense"
+        },
+        {
+          "esnet_name": "Brasil - Copa do Brasil",
+          "esnet_id": 100000326,
+          "pinnacle_id": 1833,
+          "pinnacle_name": "Brazil - Cup"
+        },
+        {
+          "esnet_name": "Brasil - Copa do Nordeste",
+          "esnet_id": 100010729,
+          "pinnacle_id": 10883,
+          "pinnacle_name": "Brazil - Copa Do Nordeste"
+        },
+        {
+          "esnet_name": "Brasil - Copa Verde",
+          "esnet_id": 100010625,
+          "pinnacle_id": 75455,
+          "pinnacle_name": "Brazil - Copa Verde"
+        },
+        {
+          "esnet_name": "Brasil - Gaúcho",
+          "esnet_id": 100017686,
+          "pinnacle_id": 1829,
+          "pinnacle_name": "Brazil - Gaucho"
+        },
+        {
+          "esnet_name": "Brasil - Goiano",
+          "esnet_id": 100017814,
+          "pinnacle_id": 10780,
+          "pinnacle_name": "Brazil - Goiano"
+        },
+        {
+          "esnet_name": "Brasil - Mineiro",
+          "esnet_id": 100017678,
+          "pinnacle_id": 10778,
+          "pinnacle_name": "Brazil - Mineiro"
+        },
+        {
+          "esnet_name": "Brasil - Paulistão",
+          "esnet_id": 100017403,
+          "pinnacle_id": 2360,
+          "pinnacle_name": "Brazil - Paulista"
+        },
+        {
+          "esnet_name": "Brasil - Paulistão A2",
+          "esnet_id": 100017672,
+          "pinnacle_id": 10782,
+          "pinnacle_name": "Brazil - Paulista A2"
+        },
+        {
+          "esnet_name": "Brasil - Paraense",
+          "esnet_id": 100017795,
+          "pinnacle_id": 198451,
+          "pinnacle_name": "Brazil - Paraense"
+        },
+        {
+          "esnet_name": "Brasil - Paranaense",
+          "esnet_id": 100000327,
+          "pinnacle_id": 10770,
+          "pinnacle_name": "Brazil - Paranaense"
+        },
+        {
+          "esnet_name": "Brasil - Pernambucano",
+          "esnet_id": 100017673,
+          "pinnacle_id": 10885,
+          "pinnacle_name": "Brazil - Pernambucano"
+        },
+        {
+          "esnet_name": "Brasil - Sergipano",
+          "esnet_id": 100017512,
+          "pinnacle_id": 196773,
+          "pinnacle_name": "Brazil - Sergipano"
+        },
+        {
+          "esnet_name": "Brasileirão - Serie A",
+          "esnet_id": 100000325,
+          "pinnacle_id": 1834,
+          "pinnacle_name": "Brazil - Serie A"
+        },
+        {
+          "esnet_name": "Brasileirão - Série B",
+          "esnet_id": 100000328,
+          "pinnacle_id": 1835,
+          "pinnacle_name": "Brazil - Serie B"
+        },
+        {
+          "esnet_name": "Brasileirão - Série C",
+          "esnet_id": 100000329,
+          "pinnacle_id": 1836,
+          "pinnacle_name": "Brazil - Serie C"
+        },
+        {
+          "esnet_name": "Brasileirão - Série D",
+          "esnet_id": 100000335,
+          "pinnacle_id": 201371,
+          "pinnacle_name": "Brazil - Serie D"
+        },
+        {
+          "esnet_name": "Brasil - Copinha São Paulo",
+          "esnet_id": 100017289,
+          "pinnacle_id": 218024,
+          "pinnacle_name": "Brazil - Sao Paulo Cup U20"
+        },
+        {
+          "esnet_name": "Brasileirão Sub20",
+          "esnet_id": 100000331,
+          "pinnacle_id": 210902,
+          "pinnacle_name": "Brazil - Brasileiro U20"
+        },
+        {
+          "esnet_name": "Brasileirão Feminino",
+          "esnet_id": 100000333,
+          "pinnacle_id": 201364,
+          "pinnacle_name": "Brazil - Brasileiro Women"
+        },
+        {
+          "esnet_name": "Bulgária - First League",
+          "esnet_id": 100000839,
+          "pinnacle_id": 9320,
+          "pinnacle_name": "Bulgaria - First League"
+        },
+        {
+          "esnet_name": "Canadá - Premier League",
+          "esnet_id": 100000523,
+          "pinnacle_id": 205098,
+          "pinnacle_name": "Canada - Premier League"
+        },
+        {
+          "esnet_name": "Camarões - Primeira Elite",
+          "esnet_id": 100001383,
+          "pinnacle_id": 1849,
+          "pinnacle_name": "Camarões - Elite One"
+        },
+        {
+          "esnet_name": "Catar - Liga das Estrelas",
+          "esnet_id": 100000863,
+          "pinnacle_id": 8128,
+          "pinnacle_name": "Qatar - Stars League"
+        },
+        {
+          "esnet_name": "Chile - Copa do Chile",
+          "esnet_id": 100000425,
+          "pinnacle_id": 1856,
+          "pinnacle_name": "Chile - Cup"
+        },
+        {
+          "esnet_name": "Chile - Primera Division",
+          "esnet_id": 100000427,
+          "pinnacle_id": 1857,
+          "pinnacle_name": "Chile - Primera Division"
+        },
+        {
+          "esnet_name": "Chile - Primera B",
+          "esnet_id": 100000426,
+          "pinnacle_id": 10279,
+          "pinnacle_name": "Chile - Primera B"
+        },
+        {
+          "esnet_name": "China - Liga da China",
+          "esnet_id": 100000457,
+          "pinnacle_id": 8655,
+          "pinnacle_name": "China - League One"
+        },
+        {
+          "esnet_name": "China - Super League",
+          "esnet_id": null,
+          "pinnacle_id": 6417,
+          "pinnacle_name": "China - Super League"
+        },
+        {
+          "esnet_name": "Chipre - 1ª Divisão",
+          "esnet_id": 100000834,
+          "pinnacle_id": 1887,
+          "pinnacle_name": "Cyprus - 1st Division"
+        },
+        {
+          "esnet_name": "Chipre - Copa do Chipre",
+          "esnet_id": 100010306,
+          "pinnacle_id": 1888,
+          "pinnacle_name": "Cyprus - Cup"
+        },
+        {
+          "esnet_name": "Colômbia - Copa da Colômbia",
+          "esnet_id": 100000491,
+          "pinnacle_id": 1867,
+          "pinnacle_name": "Colombia - Cup"
+        },
+        {
+          "esnet_name": "Colômbia - Primeira A, Abertura",
+          "esnet_id": 100000492,
+          "pinnacle_id": 5591,
+          "pinnacle_name": "Colombia - Primera A"
+        },
+        {
+          "esnet_name": "Colômbia - Primeira A, Encerramento*",
+          "esnet_id": 100002894,
+          "pinnacle_id": 5591,
+          "pinnacle_name": "Colombia - Primera A"
+        },
+        {
+          "esnet_name": "Colômbia - Primeira B",
+          "esnet_id": 100000490,
+          "pinnacle_id": 10921,
+          "pinnacle_name": "Colombia - Primera B"
+        },
+        {
+          "esnet_name": "Costa Rica - Primera Division, Abertura",
+          "esnet_id": 100002797,
+          "pinnacle_id": 9531,
+          "pinnacle_name": "Costa Rica - Primera Division"
+        },
+        {
+          "esnet_name": "Costa Rica - Primera Division, Encerramento*",
+          "esnet_id": 100017411,
+          "pinnacle_id": 9531,
+          "pinnacle_name": "Costa Rica - Primera Division"
+        },
+        {
+          "esnet_name": "Costa Rica - Copa",
+          "esnet_id": 100033063,
+          "pinnacle_id": 9532,
+          "pinnacle_name": "Costa Rica - Cup"
+        },
+        {
+          "esnet_name": "Croácia - 1ª HNL",
+          "esnet_id": 100000340,
+          "pinnacle_id": 1880,
+          "pinnacle_name": "Croatia - HNL"
+        },
+        {
+          "esnet_name": "Croácia - Copa da Croácia",
+          "esnet_id": 100005450,
+          "pinnacle_id": 1882,
+          "pinnacle_name": "Croatia - Cup"
+        },
+        {
+          "esnet_name": "Dinamarca - Superliga",
+          "esnet_id": 100000302,
+          "pinnacle_id": 1913,
+          "pinnacle_name": "Denmark - Superliga"
+        },
+        {
+          "esnet_name": "Dinamarca - 1ª Divisão",
+          "esnet_id": 100000303,
+          "pinnacle_id": 1904,
+          "pinnacle_name": "Denmark - Division 1"
+        },
+        {
+          "esnet_name": "Dinamarca - Copa Ladspokal",
+          "esnet_id": 100002953,
+          "pinnacle_id": 1908,
+          "pinnacle_name": "Denmark - Cup"
+        },
+        {
+          "esnet_name": "Egito - Copa da Liga",
+          "esnet_id": 100017550,
+          "pinnacle_id": 218174,
+          "pinnacle_name": "Egypt - League Cup"
+        },
+        {
+          "esnet_name": "Egito - Copa do Egito",
+          "esnet_id": 100000512,
+          "pinnacle_id": 1946,
+          "pinnacle_name": "Egypt - Cup"
+        },
+        {
+          "esnet_name": "Egito - Premier League",
+          "esnet_id": 100000511,
+          "pinnacle_id": 9885,
+          "pinnacle_name": "Egypt - Premier League"
+        },
+        {
+          "esnet_name": "Emirados Árabes Unidos",
+          "esnet_id": 100000853,
+          "pinnacle_id": 8126,
+          "pinnacle_name": "UAE - Pro League"
+        },
+        {
+          "esnet_name": "Equador - Série A",
+          "esnet_id": 100000480,
+          "pinnacle_id": 5598,
+          "pinnacle_name": "Ecuador - Serie A"
+        },
+        {
+          "esnet_name": "Equador - Série B",
+          "esnet_id": 100000481,
+          "pinnacle_id": 197248,
+          "pinnacle_name": "Ecuador - Serie B"
+        },
+        {
+          "esnet_name": "Escócia - Primeira Liga",
+          "esnet_id": 100000363,
+          "pinnacle_id": 2421,
+          "pinnacle_name": "Scotland - Premiership"
+        },
+        {
+          "esnet_name": "Escócia - Championship",
+          "esnet_id": 100000364,
+          "pinnacle_id": 2417,
+          "pinnacle_name": "Scotland - Championship"
+        },
+        {
+          "esnet_name": "Escócia - Copa da Escócia",
+          "esnet_id": 100002806,
+          "pinnacle_id": 2426,
+          "pinnacle_name": "Scotland - Cup"
+        },
+        {
+          "esnet_name": "Escócia - Copa Challenge",
+          "esnet_id": 100003752,
+          "pinnacle_id": 2420,
+          "pinnacle_name": "Scotland - Challenge Cup"
+        },
+        {
+          "esnet_name": "Eslovênia - 1ª Liga",
+          "esnet_id": 100000832,
+          "pinnacle_id": 2457,
+          "pinnacle_name": "Slovenia - Prva Liga"
+        },
+        {
+          "esnet_name": "Espanha - Copa Del Rey",
+          "esnet_id": 100002849,
+          "pinnacle_id": 2462,
+          "pinnacle_name": "Spain - Cup"
+        },
+        {
+          "esnet_name": "Espanha - La Liga",
+          "esnet_id": 100000735,
+          "pinnacle_id": 2196,
+          "pinnacle_name": "Spain - La Liga"
+        },
+        {
+          "esnet_name": "Espanha - La Liga 2",
+          "esnet_id": 100000392,
+          "pinnacle_id": 2432,
+          "pinnacle_name": "Spain - Segunda Division"
+        },
+        {
+          "esnet_name": "Espanha - Primeira Divisão Rfef",
+          "esnet_id": 100004866,
+          "pinnacle_id": 220076,
+          "pinnacle_name": "Spain - Primera RFEF"
+        },
+        {
+          "esnet_name": "Espanha - Supercopa",
+          "esnet_id": 100017395,
+          "pinnacle_id": 2463,
+          "pinnacle_name": "Spain - Super Cup"
+        },
+        {
+          "esnet_name": "Estônia - Liga Premium",
+          "esnet_id": 100000451,
+          "pinnacle_id": 1989,
+          "pinnacle_name": "Estonia - Meistriliiga"
+        },
+        {
+          "esnet_name": "EUA - MLS (Major League Soccer)",
+          "esnet_id": 100000372,
+          "pinnacle_id": 2663,
+          "pinnacle_name": "USA - Major League Soccer"
+        },
+        {
+          "esnet_name": "EUA - USL Championship",
+          "esnet_id": 100000375,
+          "pinnacle_id": 201065,
+          "pinnacle_name": "USA - USL Championship"
+        },
+        {
+          "esnet_name": "EUA - US Open Cup",
+          "esnet_id": 100019096,
+          "pinnacle_id": 2662,
+          "pinnacle_name": "USA - Open Cup"
+        },
+        {
+          "esnet_name": "Finlândia - VeikkausLiiga",
+          "esnet_id": 100000347,
+          "pinnacle_id": 2024,
+          "pinnacle_name": "Finland - Veikkausliiga"
+        },
+        {
+          "esnet_name": "França - Coupe de France",
+          "esnet_id": 100003865,
+          "pinnacle_id": 2032,
+          "pinnacle_name": "France - Cup"
+        },
+        {
+          "esnet_name": "França - Ligue 1",
+          "esnet_id": 100000755,
+          "pinnacle_id": 2036,
+          "pinnacle_name": "France - Ligue 1"
+        },
+        {
+          "esnet_name": "França - Ligue 2",
+          "esnet_id": 100000826,
+          "pinnacle_id": 2037,
+          "pinnacle_name": "France - Ligue 2"
+        },
+        {
+          "esnet_name": "França - National",
+          "esnet_id": 100002798,
+          "pinnacle_id": 2027,
+          "pinnacle_name": "France - National"
+        },
+        {
+          "esnet_name": "Grécia- Super League",
+          "esnet_id": 100000841,
+          "pinnacle_id": 2081,
+          "pinnacle_name": "Greece - Super League"
+        },
+        {
+          "esnet_name": "Inglaterra - Premier League",
+          "esnet_id": 100000277,
+          "pinnacle_id": 1980,
+          "pinnacle_name": "England - Premier League"
+        },
+        {
+          "esnet_name": "Inglaterra - Championship",
+          "esnet_id": 100000711,
+          "pinnacle_id": 1977,
+          "pinnacle_name": "England - Championship"
+        },
+        {
+          "esnet_name": "Inglaterra - 1ª Liga",
+          "esnet_id": 100000704,
+          "pinnacle_id": 1957,
+          "pinnacle_name": "England - League 1"
+        },
+        {
+          "esnet_name": "Inglaterra - 2ª Liga",
+          "esnet_id": 100000717,
+          "pinnacle_id": 1958,
+          "pinnacle_name": "England - League 2"
+        },
+        {
+          "esnet_name": "Inglaterra - Conferência Nacional",
+          "esnet_id": 100000278,
+          "pinnacle_id": 1978,
+          "pinnacle_name": "England - National League"
+        },
+        {
+          "esnet_name": "Inglaterra - EFL Cup",
+          "esnet_id": 100001320,
+          "pinnacle_id": 1982,
+          "pinnacle_name": "England - EFL Cup"
+        },
+        {
+          "esnet_name": "Inglaterra - FA Cup",
+          "esnet_id": 100002822,
+          "pinnacle_id": 1979,
+          "pinnacle_name": "England - FA Cup"
+        },
+        {
+          "esnet_name": "INTER. AFC - Asian Cup",
+          "esnet_id": 100033231,
+          "pinnacle_id": 1707,
+          "pinnacle_name": "AFC - Asian Cup"
+        },
+        {
+          "esnet_name": "INTER. AFC Asian Cup QF",
+          "esnet_id": 100021331,
+          "pinnacle_id": 198935,
+          "pinnacle_name": "AFC - Eliminatórias da Copa Asiática"
+        },
+        {
+          "esnet_name": "INTER. AFC - Liga dos Campeões",
+          "esnet_id": 100000530,
+          "pinnacle_id": 1708,
+          "pinnacle_name": "AFC - Champions League"
+        },
+        {
+          "esnet_name": "INTER. AFC - Liga dos Campeões 2",
+          "esnet_id": 100000534,
+          "pinnacle_id": 1709,
+          "pinnacle_name": "AFC - Cup"
+        },
+        {
+          "esnet_name": "INTER. África - COSAFA",
+          "esnet_id": 100001944,
+          "pinnacle_id": 197076,
+          "pinnacle_name": "COSAFA - Cup"
+        },
+        {
+          "esnet_name": "INTER. Amistosos de Clubes",
+          "esnet_id": 100000535,
+          "pinnacle_id": 1863,
+          "pinnacle_name": "Club Friendlies"
+        },
+        {
+          "esnet_name": "INTER. CAF - Africa Cup of Nations Qualifiers",
+          "esnet_id": 100000292,
+          "pinnacle_id": 1713,
+          "pinnacle_name": "CAF - Africa Cup of Nations Qualifiers"
+        },
+        {
+          "esnet_name": "INTER. CAF - África Cup of Nations",
+          "esnet_id": 100017254,
+          "pinnacle_id": 1718,
+          "pinnacle_name": "CAF - Africa Cup of Nation"
+        },
+        {
+          "esnet_name": "INTER. CAF - Liga dos Campeões",
+          "esnet_id": 100000536,
+          "pinnacle_id": 1715,
+          "pinnacle_name": "CAF - Champions League"
+        },
+        {
+          "esnet_name": "INTER. CAF - Copa das Confederações",
+          "esnet_id": 100000537,
+          "pinnacle_id": 187709,
+          "pinnacle_name": "CAF - Confederation Cup"
+        },
+        {
+          "esnet_name": "INTER. CONCACAF - Liga dos Campeões",
+          "esnet_id": 100000533,
+          "pinnacle_id": 1870,
+          "pinnacle_name": "CONCACAF - Champions League"
+        },
+        {
+          "esnet_name": "INTER. CONCACAF - Nations League",
+          "esnet_id": 100020807,
+          "pinnacle_id": 206571,
+          "pinnacle_name": "CONCACAF - Nations League"
+        },
+        {
+          "esnet_name": "INTER. CONMEBOL - Copa Libertadores",
+          "esnet_id": 100000529,
+          "pinnacle_id": 1875,
+          "pinnacle_name": "CONMEBOL - Copa Libertadores"
+        },
+        {
+          "esnet_name": "INTER. CONMEBOL - Copa Sul-americana",
+          "esnet_id": 100000532,
+          "pinnacle_id": 2472,
+          "pinnacle_name": "CONMEBOL - Copa Sudamericana"
+        },
+        {
+          "esnet_name": "INTER. CONMEBOL - Pre-Olympic Tournament",
+          "esnet_id": 100033997,
+          "pinnacle_id": 207687,
+          "pinnacle_name": "CONMEBOL - Pre-Olympic Tournament U23"
+        },
+        {
+          "esnet_name": "INTER. CONMEBOL - Copa América",
+          "esnet_id": 100000283,
+          "pinnacle_id": 1872,
+          "pinnacle_name": "CONMEBOL - Copa America"
+        },
+        {
+          "esnet_name": "INTER. CONMEBOL - U20 Championship Juniores",
+          "esnet_id": 100027384,
+          "pinnacle_id": 4679,
+          "pinnacle_name": "CONMEBOL - U20 Championship"
+        },
+        {
+          "esnet_name": "FIFA - Amistosos Internacionais",
+          "esnet_id": 100000289,
+          "pinnacle_id": 2117,
+          "pinnacle_name": "International - Friendlies"
+        },
+        {
+          "esnet_name": "FIFA - Club World Cup",
+          "esnet_id": 100016855,
+          "pinnacle_id": 1865,
+          "pinnacle_name": "FIFA - Club World Cup"
+        },
+        {
+          "esnet_name": "FIFA - World Cup Qualifiers Africa",
+          "esnet_id": 100006212,
+          "pinnacle_id": 2013,
+          "pinnacle_name": "FIFA - World Cup Qualifiers Africa"
+        },
+        {
+          "esnet_name": "FIFA - World Cup Qualifiers Asia",
+          "esnet_id": 100000286,
+          "pinnacle_id": 2014,
+          "pinnacle_name": "FIFA - World Cup Qualifiers Asia"
+        },
+        {
+          "esnet_name": "FIFA - World Cup Qualifiers CONCACAF",
+          "esnet_id": 100000282,
+          "pinnacle_id": 212593,
+          "pinnacle_name": "FIFA - World Cup Qualifiers CONCACAF"
+        },
+        {
+          "esnet_name": "FIFA - Eliminatórias Copa do Mundo Europa",
+          "esnet_id": 100000281,
+          "pinnacle_id": 2015,
+          "pinnacle_name": "FIFA - Eliminatórias Copa do Mundo Europa"
+        },
+        {
+          "esnet_name": "INTER. FIFA - World Cup Qualifiers South America",
+          "esnet_id": 100000285,
+          "pinnacle_id": 2016,
+          "pinnacle_name": "FIFA - World Cup Qualifiers South America"
+        },
+        {
+          "esnet_name": "INTER. Gold Cup",
+          "esnet_id": 100000284,
+          "pinnacle_id": 35185,
+          "pinnacle_name": "CONCACAF - Gold Cup Qualifiers"
+        },
+        {
+          "esnet_name": "INTER. Intercontinental Cup",
+          "esnet_id": 100029693,
+          "pinnacle_id": 226402,
+          "pinnacle_name": "International - Intercontinental Cup"
+        },
+        {
+          "esnet_name": "INTER. UEFA - EURO Qualifiers",
+          "esnet_id": 100028103,
+          "pinnacle_id": 2635,
+          "pinnacle_name": "UEFA - EURO Qualifiers"
+        },
+        {
+          "esnet_name": "INTER. UEFA - EURO",
+          "esnet_id": 100000280,
+          "pinnacle_id": 5264,
+          "pinnacle_name": "UEFA - EURO"
+        },
+        {
+          "esnet_name": "INTER. UEFA - WOMENS Euro Qualifiers",
+          "esnet_id": 100034984,
+          "pinnacle_id": 2641,
+          "pinnacle_name": "UEFA - EURO Women Qualifiers"
+        },
+        {
+          "esnet_name": "INTER. UEFA - Liga das Nacoes A",
+          "esnet_id": 100000293,
+          "pinnacle_id": 200719,
+          "pinnacle_name": "UEFA - Nations League A"
+        },
+        {
+          "esnet_name": "INTER. UEFA - Liga das Nacoes C",
+          "esnet_id": 100000293,
+          "pinnacle_id": 200726,
+          "pinnacle_name": "UEFA - Nations League C"
+        },
+        {
+          "esnet_name": "INTER. UEFA - Playoffs Liga",
+          "esnet_id": 100000293,
+          "pinnacle_id": 242340,
+          "pinnacle_name": "UEFA - Playoffs da Liga das Nações"
+        },
+        {
+          "esnet_name": "INTER. UEFA - Nations League Women",
+          "esnet_id": 100032555,
+          "pinnacle_id": 227902,
+          "pinnacle_name": "UEFA - Nations League Women"
+        },
+        {
+          "esnet_name": "INTER. UEFA - U19 Euro Qualifiers",
+          "esnet_id": 100015331,
+          "pinnacle_id": 5983,
+          "pinnacle_name": "UEFA - U19 Euro Championship Qualifiers"
+        },
+        {
+          "esnet_name": "Irlanda - Premier",
+          "esnet_id": 100000428,
+          "pinnacle_id": 2120,
+          "pinnacle_name": "Ireland - Premier"
+        },
+        {
+          "esnet_name": "Irlanda - 1ª Divisão",
+          "esnet_id": 100000429,
+          "pinnacle_id": 2123,
+          "pinnacle_name": "Ireland - Division 1"
+        },
+        {
+          "esnet_name": "Irlanda - FAI Cup",
+          "esnet_id": 100005267,
+          "pinnacle_id": 2124,
+          "pinnacle_name": "Ireland - FAI Cup"
+        },
+        {
+          "esnet_name": "Irlanda do Norte - Premiership",
+          "esnet_id": 100000828,
+          "pinnacle_id": 2259,
+          "pinnacle_name": "Northern Ireland - Premiership"
+        },
+        {
+          "esnet_name": "Islândia - Copa da Liga",
+          "esnet_id": 100018034,
+          "pinnacle_id": 4994,
+          "pinnacle_name": "Iceland - League Cup"
+        },
+        {
+          "esnet_name": "Islândia - Copa da Islândia",
+          "esnet_id": 100000317,
+          "pinnacle_id": 2101,
+          "pinnacle_name": "Iceland - Cup"
+        },
+        {
+          "esnet_name": "Islândia - Premier League",
+          "esnet_id": 100000316,
+          "pinnacle_id": 2102,
+          "pinnacle_name": "Iceland - Premier League"
+        },
+        {
+          "esnet_name": "Islândia - 1ª Divisão",
+          "esnet_id": 100000318,
+          "pinnacle_id": 2100,
+          "pinnacle_name": "Iceland - 1. Deild"
+        },
+        {
+          "esnet_name": "Israel - Premierleague (Ligat ha'Al)",
+          "esnet_id": 100000831,
+          "pinnacle_id": 2136,
+          "pinnacle_name": "Israel - Premier League"
+        },
+        {
+          "esnet_name": "Itália - Copa da Itália",
+          "esnet_id": 100002785,
+          "pinnacle_id": 2147,
+          "pinnacle_name": "Italy - Cup"
+        },
+        {
+          "esnet_name": "Italia - Serie A",
+          "esnet_id": 100000727,
+          "pinnacle_id": 2436,
+          "pinnacle_name": "Italy - Serie A"
+        },
+        {
+          "esnet_name": "Itália - Série B",
+          "esnet_id": 100000847,
+          "pinnacle_id": 2438,
+          "pinnacle_name": "Italy - Serie B"
+        },
+        {
+          "esnet_name": "Itália - Série C",
+          "esnet_id": 100000391,
+          "pinnacle_id": 199868,
+          "pinnacle_name": "Italy - Serie C"
+        },
+        {
+          "esnet_name": "Itália - Série C, Grupo A",
+          "esnet_id": 100005247,
+          "pinnacle_id": 217401,
+          "pinnacle_name": "Italy - Serie C Group A"
+        },
+        {
+          "esnet_name": "Itália - Série C, Grupo B",
+          "esnet_id": 100005259,
+          "pinnacle_id": 217400,
+          "pinnacle_name": "Italy - Serie C Group B"
+        },
+        {
+          "esnet_name": "Itália - Série C, Grupo C",
+          "esnet_id": 100000856,
+          "pinnacle_id": 217399,
+          "pinnacle_name": "Italy - Serie C Group C"
+        },
+        {
+          "esnet_name": "Jamaica - Premier League",
+          "esnet_id": 100001253,
+          "pinnacle_id": 10407,
+          "pinnacle_name": "Jamaica - Premier League"
+        },
+        {
+          "esnet_name": "Letônia - Virsliga",
+          "esnet_id": 100000479,
+          "pinnacle_id": 2203,
+          "pinnacle_name": "Latvia - Virsliga"
+        },
+        {
+          "esnet_name": "Marrocos - Botola Pro",
+          "esnet_id": 100000507,
+          "pinnacle_id": 2253,
+          "pinnacle_name": "Morocco - Botola Pro"
+        },
+        {
+          "esnet_name": "México - Liga de Expansion MX, Abertura",
+          "esnet_id": 100002796,
+          "pinnacle_id": 209758,
+          "pinnacle_name": ""
+        },
+        {
+          "esnet_name": "México - Liga de Expansion MX,Encerramento",
+          "esnet_id": 100017198,
+          "pinnacle_id": 209758,
+          "pinnacle_name": "Mexico - Liga de Expansión MX"
+        },
+        {
+          "esnet_name": "México - Liga MX, Abertura",
+          "esnet_id": 100001685,
+          "pinnacle_id": 2242,
+          "pinnacle_name": "Mexico - Liga Premier"
+        },
+        {
+          "esnet_name": "México - Liga MX, Encerramento",
+          "esnet_id": 100017141,
+          "pinnacle_id": 2242,
+          "pinnacle_name": ""
+        },
+        {
+          "esnet_name": "Nigeria - Liga Premier",
+          "esnet_id": 100000553,
+          "pinnacle_id": 199487,
+          "pinnacle_name": "Nigeria - NPFL"
+        },
+        {
+          "esnet_name": "Noruega - Copa da Noruega",
+          "esnet_id": 100010263,
+          "pinnacle_id": 2280,
+          "pinnacle_name": "Norway - Cup"
+        },
+        {
+          "esnet_name": "Noruega - Elitserien",
+          "esnet_id": 100000295,
+          "pinnacle_id": 2333,
+          "pinnacle_name": "Norway - Eliteserien"
+        },
+        {
+          "esnet_name": "Noruega - 1st Divisão(2ªDivisão)",
+          "esnet_id": 100000296,
+          "pinnacle_id": 2331,
+          "pinnacle_name": "Norway - 1st Division"
+        },
+        {
+          "esnet_name": "Olimpíadas Men",
+          "esnet_id": 100000287,
+          "pinnacle_id": 197231,
+          "pinnacle_name": "Olympic - Men"
+        },
+        {
+          "esnet_name": "Olimpíadas Women",
+          "esnet_id": 100000288,
+          "pinnacle_id": 5000,
+          "pinnacle_name": "Olympic - Women"
+        },
+        {
+          "esnet_name": "País de Gales - Premier League",
+          "esnet_id": 100002793,
+          "pinnacle_id": 2678,
+          "pinnacle_name": "Wales - Premier League"
+        },
+        {
+          "esnet_name": "Países Baixos - Cup",
+          "esnet_id": 100002763,
+          "pinnacle_id": 1930,
+          "pinnacle_name": "Netherlands - Cup"
+        },
+        {
+          "esnet_name": "Países Baixos - Eredivisie",
+          "esnet_id": 100000409,
+          "pinnacle_id": 1928,
+          "pinnacle_name": "Netherlands - Eredivisie"
+        },
+        {
+          "esnet_name": "Países Baixos - Segunda Divisão",
+          "esnet_id": 100000410,
+          "pinnacle_id": 1929,
+          "pinnacle_name": "Netherlands - Eerste Divisie"
+        },
+        {
+          "esnet_name": "Paraguai - 1ª Divisão, Abertura",
+          "esnet_id": 100017123,
+          "pinnacle_id": 2359,
+          "pinnacle_name": "Paraguay - Division Profesional"
+        },
+        {
+          "esnet_name": "Paraguai - Divisão Profissional*",
+          "esnet_id": 100000499,
+          "pinnacle_id": 2359,
+          "pinnacle_name": "Paraguay - Division Profesional"
+        },
+        {
+          "esnet_name": "Paraguai - Segunda Divisão",
+          "esnet_id": 100000498,
+          "pinnacle_id": 201859,
+          "pinnacle_name": "Paraguay - Division Intermedia"
+        },
+        {
+          "esnet_name": "Peru - Liga 1",
+          "esnet_id": 100003272,
+          "pinnacle_id": 2366,
+          "pinnacle_name": "Peru - Liga 1"
+        },
+        {
+          "esnet_name": "Polônia - Ekstraklasa",
+          "esnet_id": 100000414,
+          "pinnacle_id": 2374,
+          "pinnacle_name": "Poland - Ekstraklasa"
+        },
+        {
+          "esnet_name": "Portugal - Primeira Liga",
+          "esnet_id": 100000734,
+          "pinnacle_id": 2386,
+          "pinnacle_name": "Portugal - Primeira Liga"
+        },
+        {
+          "esnet_name": "Portugal - 2ª Liga",
+          "esnet_id": 100002788,
+          "pinnacle_id": 2387,
+          "pinnacle_name": "Portugal - Liga 2"
+        },
+        {
+          "esnet_name": "Portugal - Copa de Portugal",
+          "esnet_id": 100007398,
+          "pinnacle_id": 2384,
+          "pinnacle_name": "Portugal - Cup"
+        },
+        {
+          "esnet_name": "Portugal - Liga Revelação",
+          "esnet_id": 100004277,
+          "pinnacle_id": 202276,
+          "pinnacle_name": "Portugal - U23 Championship"
+        },
+        {
+          "esnet_name": "República Tcheca - 1ª Divisão",
+          "esnet_id": 100000341,
+          "pinnacle_id": 1891,
+          "pinnacle_name": "Czech Republic - Czech Liga"
+        },
+        {
+          "esnet_name": "Romênia - Liga 1",
+          "esnet_id": 100000737,
+          "pinnacle_id": 2395,
+          "pinnacle_name": "Romania - Liga 1"
+        },
+        {
+          "esnet_name": "Rússia - Copa da Rússia",
+          "esnet_id": 100004808,
+          "pinnacle_id": 2409,
+          "pinnacle_name": "Russia - Cup"
+        },
+        {
+          "esnet_name": "Rússia - Premier League",
+          "esnet_id": 100000356,
+          "pinnacle_id": 2406,
+          "pinnacle_name": "Russia - Premier League"
+        },
+        {
+          "esnet_name": "Senegal - Premier League",
+          "esnet_id": 100000560,
+          "pinnacle_id": 215554,
+          "pinnacle_name": "Senegal - FA Cup"
+        },
+        {
+          "esnet_name": "Sérvia - SuperLiga",
+          "esnet_id": 100002795,
+          "pinnacle_id": 2434,
+          "pinnacle_name": "Serbia - Super Liga"
+        },
+        {
+          "esnet_name": "Sérvia - Liga Prva",
+          "esnet_id": 100002983,
+          "pinnacle_id": 206162,
+          "pinnacle_name": "Serbia - Prva Liga"
+        },
+        {
+          "esnet_name": "Suécia - Allsvenskan",
+          "esnet_id": 100000304,
+          "pinnacle_id": 1728,
+          "pinnacle_name": "Sweden - Allsvenskan"
+        },
+        {
+          "esnet_name": "Suécia - Superettan 2ª Liga",
+          "esnet_id": 100000305,
+          "pinnacle_id": 2476,
+          "pinnacle_name": "Sweden - Superettan"
+        },
+        {
+          "esnet_name": "Suécia - Copa da Suécia",
+          "esnet_id": 100000313,
+          "pinnacle_id": 2516,
+          "pinnacle_name": "Sweden - Cup"
+        },
+        {
+          "esnet_name": "Suíça - Copa da Suíça",
+          "esnet_id": 100002997,
+          "pinnacle_id": 2519,
+          "pinnacle_name": "Switzerland - Cup"
+        },
+        {
+          "esnet_name": "Suíça - Super League",
+          "esnet_id": 100000736,
+          "pinnacle_id": 2517,
+          "pinnacle_name": "Switzerland - Super League"
+        },
+        {
+          "esnet_name": "Suíça - Liga Challenge",
+          "esnet_id": 100001027,
+          "pinnacle_id": 2518,
+          "pinnacle_name": "Switzerland - Challenge League"
+        },
+        {
+          "esnet_name": "Turquia - Super Liga",
+          "esnet_id": 100000836,
+          "pinnacle_id": 2592,
+          "pinnacle_name": "Turkey - Super League"
+        },
+        {
+          "esnet_name": "Turquia - 1ª Liga",
+          "esnet_id": 100002996,
+          "pinnacle_id": 2578,
+          "pinnacle_name": "Turkey - 1st League"
+        },
+        {
+          "esnet_name": "Turquia - Copa da Turquia",
+          "esnet_id": 100007276,
+          "pinnacle_id": 2586,
+          "pinnacle_name": "Turkey - Cup"
+        },
+        {
+          "esnet_name": "Ucrânia - Premier League",
+          "esnet_id": 100000445,
+          "pinnacle_id": 2650,
+          "pinnacle_name": "Ukraine - Premier League"
+        },
+        {
+          "esnet_name": "UEFA - Champions League",
+          "esnet_id": 100000528,
+          "pinnacle_id": 2627,
+          "pinnacle_name": "UEFA - Champions League"
+        },
+        {
+          "esnet_name": "UEFA - Champions League Women",
+          "esnet_id": 100003549,
+          "pinnacle_id": 2642,
+          "pinnacle_name": "UEFA - Champions League Women"
+        },
+        {
+          "esnet_name": "UEFA - Europa Conference League",
+          "esnet_id": 100000538,
+          "pinnacle_id": 214101,
+          "pinnacle_name": "UEFA - Europa Conference League"
+        },
+        {
+          "esnet_name": "UEFA - Liga Europa UEFA",
+          "esnet_id": 100002780,
+          "pinnacle_id": 2630,
+          "pinnacle_name": "UEFA - Europa League"
+        },
+        {
+          "esnet_name": "UEFA - U21 Euro Championship Qualifiers",
+          "esnet_id": 100000526,
+          "pinnacle_id": 5982,
+          "pinnacle_name": "UEFA - U21 Euro Championship Qualifiers"
+        },
+        {
+          "esnet_name": "Uruguai - Copa  Uruguay",
+          "esnet_id": 100022719,
+          "pinnacle_id": 5594,
+          "pinnacle_name": "Uruguay - Cup"
+        },
+        {
+          "esnet_name": "Uruguai - Primeira Divisão",
+          "esnet_id": 100000436,
+          "pinnacle_id": 5593,
+          "pinnacle_name": "Uruguay - Primera Division"
+        },
+        {
+          "esnet_name": "Uruguai - Segunda Divisão",
+          "esnet_id": 100000437,
+          "pinnacle_id": 205369,
+          "pinnacle_name": "Uruguay - Segunda Division"
+        },
+        {
+          "esnet_name": "Venezuela - Primera Division",
+          "esnet_id": 100000500,
+          "pinnacle_id": 5596,
+          "pinnacle_name": "Venezuela - Primera Division"
+        },
+        {
+          "esnet_name": "Venezuela - Copa",
+          "esnet_id": 100036227,
+          "pinnacle_id": 5597,
+          "pinnacle_name": "Venezuela - Copa"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 238432,
+          "pinnacle_name": "AFC - Challenge League"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 7795,
+          "pinnacle_name": "AFC - Champions League Elite Qualifiers"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 196889,
+          "pinnacle_name": "AFC - Cup Qualifiers"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 209203,
+          "pinnacle_name": "Albania - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1722,
+          "pinnacle_name": "Albania - Superliga"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1725,
+          "pinnacle_name": "Algeria - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 9394,
+          "pinnacle_name": "Australia - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1776,
+          "pinnacle_name": "Austria - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 7167,
+          "pinnacle_name": "Azerbaijan - Premier League"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1813,
+          "pinnacle_name": "Belarus - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 6416,
+          "pinnacle_name": "Belarus - Premier League"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 204392,
+          "pinnacle_name": "Belarus - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1818,
+          "pinnacle_name": "Belgium - Challenger Pro League"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1816,
+          "pinnacle_name": "Belgium - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 197206,
+          "pinnacle_name": "Bolivia - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 198700,
+          "pinnacle_name": "Bosnia and Herzegovina - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1826,
+          "pinnacle_name": "Bosnia and Herzegovina - Premier Liga"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 192841,
+          "pinnacle_name": "Brazil - Brasiliense"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 194726,
+          "pinnacle_name": "Brazil - Carioca 2"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 10776,
+          "pinnacle_name": "Brazil - Catarinense"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 211794,
+          "pinnacle_name": "Brazil - Copa Alagoas"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 270916,
+          "pinnacle_name": "Brazil - Copa do Brasil"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 222976,
+          "pinnacle_name": "Brazil - Copa Ouro U20"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 191548,
+          "pinnacle_name": "Brazil - Copa Paulista"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 216059,
+          "pinnacle_name": "Brazil - Copa Rio U20"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 273161,
+          "pinnacle_name": "Brazil - Copa Sergipano"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 218651,
+          "pinnacle_name": "Brazil - Supercopa"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1839,
+          "pinnacle_name": "Bulgaria - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 9503,
+          "pinnacle_name": "Bulgaria - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 226330,
+          "pinnacle_name": "CAFA - Nations Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 199745,
+          "pinnacle_name": "Cameroon - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1850,
+          "pinnacle_name": "Canada - Championship"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1851,
+          "pinnacle_name": "Canada - Soccer League"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 197657,
+          "pinnacle_name": "Chile - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1859,
+          "pinnacle_name": "China - FA Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 10813,
+          "pinnacle_name": "China - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1864,
+          "pinnacle_name": "Club Friendlies Women"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 209948,
+          "pinnacle_name": "Colombia - Superliga"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 199581,
+          "pinnacle_name": "CONCACAF - League"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 202502,
+          "pinnacle_name": "CONCACAF - Nations League - Qualifiers"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 212499,
+          "pinnacle_name": "CONCACAF - Olympic Qualifiers"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 192496,
+          "pinnacle_name": "CONMEBOL - Copa America Qualifiers"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2394,
+          "pinnacle_name": "CONMEBOL - Recopa Sudamericana"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 214750,
+          "pinnacle_name": "Costa Rica - Recopa"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1898,
+          "pinnacle_name": "Czech Republic - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 9441,
+          "pinnacle_name": "Czech Republic - FNL"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 219609,
+          "pinnacle_name": "Ecuador - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 207919,
+          "pinnacle_name": "Ecuador - Supercopa"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 198532,
+          "pinnacle_name": "Egypt - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 196742,
+          "pinnacle_name": "El Salvador - Primera Division"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 272632,
+          "pinnacle_name": "El Salvador - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 125461,
+          "pinnacle_name": "Estonia - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 201775,
+          "pinnacle_name": "Estonia - Esiliiga A"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 224548,
+          "pinnacle_name": "Estonia - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 213780,
+          "pinnacle_name": "FIFA - Arab Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 215048,
+          "pinnacle_name": "FIFA - Beach Soccer World Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2686,
+          "pinnacle_name": "FIFA - World Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 9102,
+          "pinnacle_name": "FIFA - World Cup Extra Time"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2012,
+          "pinnacle_name": "FIFA - World Cup Qualifiers Europe Women"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 219415,
+          "pinnacle_name": "FIFA - World Cup Qualifiers Intercontinental"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2017,
+          "pinnacle_name": "FIFA - World Cup Qualifiers North America"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 5001,
+          "pinnacle_name": "FIFA - World Cup Qualifiers Oceania"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 224313,
+          "pinnacle_name": "FIFA - World Cup Qualifiers Women"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2608,
+          "pinnacle_name": "FIFA - World Cup U17"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 4483,
+          "pinnacle_name": "FIFA - World Cup U17 Women"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2620,
+          "pinnacle_name": "FIFA - World Cup U20"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2010,
+          "pinnacle_name": "FIFA - World Cup U20 Women"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 233204,
+          "pinnacle_name": "FIFA - World Cup U20 Women Qualifiers"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2687,
+          "pinnacle_name": "FIFA - World Cup Women"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 198974,
+          "pinnacle_name": "FIFA - World Cup Women Qualifiers Europe"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2020,
+          "pinnacle_name": "Finland - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2018,
+          "pinnacle_name": "Finland - Kakkonen"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2025,
+          "pinnacle_name": "Finland - Ykkosliiga"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 200815,
+          "pinnacle_name": "France - National 2"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2034,
+          "pinnacle_name": "France - League Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2038,
+          "pinnacle_name": "Friendlies"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2042,
+          "pinnacle_name": "Friendly - Women"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2674,
+          "pinnacle_name": "Friendly - World Club"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2054,
+          "pinnacle_name": "Germany - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2080,
+          "pinnacle_name": "Greece - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 206711,
+          "pinnacle_name": "Greece - Super League 2"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 202607,
+          "pinnacle_name": "Guatemala - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2088,
+          "pinnacle_name": "Guatemala - Liga Nacional"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 202695,
+          "pinnacle_name": "Honduras - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 196865,
+          "pinnacle_name": "Honduras - Liga Nacional"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2096,
+          "pinnacle_name": "Hungary - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2095,
+          "pinnacle_name": "Hungary - NB 1"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 201333,
+          "pinnacle_name": "Iceland - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 7953,
+          "pinnacle_name": "International - Algarve Cup Women"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1801,
+          "pinnacle_name": "International - Baltic Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1950,
+          "pinnacle_name": "International - Emirates Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2178,
+          "pinnacle_name": "International - Kings Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2122,
+          "pinnacle_name": "Ireland - League Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 10954,
+          "pinnacle_name": "Ireland - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2138,
+          "pinnacle_name": "Israel - Ligat Al Toto Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2133,
+          "pinnacle_name": "Israel - Ligat Leumit"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 10806,
+          "pinnacle_name": "Italy - Serie C Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2148,
+          "pinnacle_name": "Italy - Serie C Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2153,
+          "pinnacle_name": "Italy - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 225944,
+          "pinnacle_name": "Jamaica - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2160,
+          "pinnacle_name": "Japan - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2157,
+          "pinnacle_name": "Japan - J League"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2181,
+          "pinnacle_name": "Korea Republic - FA Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 207551,
+          "pinnacle_name": "Korea Republic - K League 1"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2204,
+          "pinnacle_name": "Latvia - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 191423,
+          "pinnacle_name": "Mexico - Ascenso"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 5778,
+          "pinnacle_name": "Mexico - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 202034,
+          "pinnacle_name": "Mexico - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 10288,
+          "pinnacle_name": "Morocco - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 1933,
+          "pinnacle_name": "Netherlands - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 197584,
+          "pinnacle_name": "Nicaragua - Primera Division"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 235788,
+          "pinnacle_name": "Nigeria - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 227961,
+          "pinnacle_name": "North America - Campeones Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2258,
+          "pinnacle_name": "Northern Ireland - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2332,
+          "pinnacle_name": "Norway - 2nd Division"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 198947,
+          "pinnacle_name": "Norway - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 202152,
+          "pinnacle_name": "Paraguay - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 10573,
+          "pinnacle_name": "Panama - Primera Division"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 224028,
+          "pinnacle_name": "Paraguay - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 5592,
+          "pinnacle_name": "Peru - Copa Peru"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 207704,
+          "pinnacle_name": "Peru - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 6633,
+          "pinnacle_name": "Poland - 1st Liga"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2368,
+          "pinnacle_name": "Poland - 2nd Liga"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2373,
+          "pinnacle_name": "Poland - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 5828,
+          "pinnacle_name": "Poland - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 4997,
+          "pinnacle_name": "Portugal - League Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2381,
+          "pinnacle_name": "Portugal - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 10905,
+          "pinnacle_name": "Qatar - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2396,
+          "pinnacle_name": "Romania - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 187758,
+          "pinnacle_name": "Romania - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 4763,
+          "pinnacle_name": "Russia - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 4998,
+          "pinnacle_name": "Scotland - League Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2418,
+          "pinnacle_name": "Scotland - League One"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2419,
+          "pinnacle_name": "Scotland - League Two"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2435,
+          "pinnacle_name": "Serbia - Cup"
+        },
+        {
+          "esnet_name": "Eslováquia - Superliga",
+          "esnet_id": 100000368,
+          "pinnacle_id": 2453,
+          "pinnacle_name": "Slovakia - Super Liga"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2456,
+          "pinnacle_name": "Slovenia - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2411,
+          "pinnacle_name": "South Africa - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2512,
+          "pinnacle_name": "Sweden - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 227469,
+          "pinnacle_name": "Switzerland - 2. Liga Interregional"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2597,
+          "pinnacle_name": "Turkey - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2624,
+          "pinnacle_name": "UAE - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 218134,
+          "pinnacle_name": "UAE - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 205451,
+          "pinnacle_name": "UEFA - Champions League Qualifiers"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 271382,
+          "pinnacle_name": "UEFA - Conference League Qualifiers"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2640,
+          "pinnacle_name": "UEFA - EURO Women"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2632,
+          "pinnacle_name": "UEFA - Europa League Qualifiers"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 200721,
+          "pinnacle_name": "UEFA - Nations League B"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 200727,
+          "pinnacle_name": "UEFA - Nations League D"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2636,
+          "pinnacle_name": "UEFA - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2647,
+          "pinnacle_name": "Ukraine - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 215933,
+          "pinnacle_name": "Ukraine - Super Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 219120,
+          "pinnacle_name": "USA - MLS Next Pro League"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 205322,
+          "pinnacle_name": "USA - USL League One"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 214556,
+          "pinnacle_name": "Wales - Championship"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 2679,
+          "pinnacle_name": "Wales - Cup"
+        },
+        {
+          "esnet_name": null,
+          "esnet_id": null,
+          "pinnacle_id": 10285,
+          "pinnacle_name": "Wales - League Cup"
+        }
+      ]
+    },
+    "tennis": {
+      "pinnacle_sport_id": 2,
+      "esnet_sport_id": 8,
+      "day_mode": false,
+      "leagues": [
+        {
+          "pinnacle_id": 196919,
+          "pinnacle_name": "Davis Cup",
+          "esnet_id": null,
+          "esnet_name": null
+        },
+        {
+          "pinnacle_id": 4762,
+          "pinnacle_name": "Davis Cup - Doubles",
+          "esnet_id": null,
+          "esnet_name": null
+        }
+      ]
+    },
+    "basketball": {
+      "pinnacle_sport_id": 3,
+      "esnet_sport_id": 190,
+      "day_mode": false,
+      "leagues": [
+        {
+          "pinnacle_id": 487,
+          "pinnacle_name": "NBA",
+          "esnet_id": 100000232,
+          "esnet_name": "NBA"
+        },
+        {
+          "pinnacle_id": 293,
+          "pinnacle_name": "NBB",
+          "esnet_id": null,
+          "esnet_name": null
+        },
+        {
+          "pinnacle_id": 493,
+          "pinnacle_name": "NCA",
+          "esnet_id": null,
+          "esnet_name": null
+        }
+      ]
+    },
+    "volleyball": {
+      "pinnacle_sport_id": 5,
+      "esnet_sport_id": 177,
+      "day_mode": false,
+      "leagues": [
+        {
+          "pinnacle_id": 4117,
+          "pinnacle_name": "Germany - Bundesliga",
+          "esnet_id": null,
+          "esnet_name": null
+        },
+        {
+          "pinnacle_id": 4039,
+          "pinnacle_name": "Brazil - Superliga Women",
+          "esnet_id": null,
+          "esnet_name": null
+        }
+      ]
+    },
+    "american_football": {
+      "pinnacle_sport_id": 7,
+      "esnet_sport_id": 10,
+      "day_mode": false,
+      "leagues": [
+        {
+          "pinnacle_id": 880,
+          "pinnacle_name": "NCAA",
+          "esnet_id": 100000177,
+          "esnet_name": "NCAA, Temporada Regular"
+        },
+        {
+          "pinnacle_id": 889,
+          "pinnacle_name": "NFL",
+          "esnet_id": null,
+          "esnet_name": null
+        }
+      ]
+    }
+  }
+}
