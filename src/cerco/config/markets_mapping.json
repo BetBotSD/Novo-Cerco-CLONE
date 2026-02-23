@@ -1,0 +1,1314 @@
+{
+  "moneyline_ft": {
+    "canonical_name": "Vencedor do Encontro (FT 1X2)",
+    "kind": "three_way",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.money_line",
+      "period": 0,
+      "sides": {
+        "home": ["home"],
+        "draw": ["draw"],
+        "away": ["away"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Vencedor do Encontro"],
+      "sides": {
+        "home": ["Casa"],
+        "draw": ["Empate"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "moneyline_1h": {
+    "canonical_name": "Vencedor do 1º tempo (1X2 HT)",
+    "kind": "three_way",
+    "scope": "1st_half",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_1.money_line",
+      "period": 1,
+      "sides": {
+        "home": ["home"],
+        "draw": ["draw"],
+        "away": ["away"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Vencedor do 1º tempo"],
+      "sides": {
+        "home": ["Casa"],
+        "draw": ["Empate"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "moneyline_2h": {
+    "canonical_name": "Vencedor do 2º tempo (1X2 2H)",
+    "kind": "three_way",
+    "scope": "2nd_half",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": [
+        "Total Goals 2nd Half 1X2",
+        "2nd Half 1X2",
+        "Winner 2nd Half"
+      ]
+    },
+    "esportenet": {
+      "headers": ["Vencedor do 2º tempo"],
+      "sides": {
+        "home": ["Casa"],
+        "draw": ["Empate"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "totals_goals_ft": {
+    "canonical_name": "Total de Gols no Jogo (Over/Under)",
+    "kind": "two_way_totals",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.totals",
+      "period": 0,
+      "line_key": "points",
+      "sides": {
+        "over": ["over"],
+        "under": ["under"]
+      }
+    },
+    "esportenet": {
+      "headers": [
+        "Total de Gols no Jogo",
+        "Total de gols no jogo"
+      ],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"
+      ],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "totals_goals_1h": {
+    "canonical_name": "Total de Gols no 1º Tempo",
+    "kind": "two_way_totals",
+    "scope": "1st_half",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_1.totals",
+      "period": 1,
+      "line_key": "points",
+      "sides": {
+        "over": ["over"],
+        "under": ["under"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Total de Gols no 1º Tempo"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"
+      ],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "totals_goals_2h": {
+    "canonical_name": "Total de Gols no 2º Tempo",
+    "kind": "two_way_totals",
+    "scope": "2nd_half",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Total Goals 2nd Half"]
+    },
+    "esportenet": {
+      "headers": ["Total de Gols no 2º Tempo"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"
+      ],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "team_total_goals_home_ft": {
+    "canonical_name": "Total de gols do time da casa (FT)",
+    "kind": "two_way_team_totals",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.team_total.home",
+      "line_key": "points",
+      "sides": {
+        "over": ["over"],
+        "under": ["under"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Casa - Total de gols no jogo"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"
+      ],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "team_total_goals_away_ft": {
+    "canonical_name": "Total de gols do time visitante (FT)",
+    "kind": "two_way_team_totals",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.team_total.away",
+      "line_key": "points",
+      "sides": {
+        "over": ["over"],
+        "under": ["under"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Fora - Total de gols no jogo"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"
+      ],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "btts_ft": {
+    "canonical_name": "Ambas as equipes marcam (FT)",
+    "kind": "two_way",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": [
+        "Both Teams To Score?",
+        "Both Teams To Score",
+        "Both Teams to Score?"
+      ],
+      "sides": {
+        "yes": ["Yes"],
+        "no": ["No"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Ambas as equipes marcam"],
+      "sides": {
+        "yes": ["Sim"],
+        "no": ["Não", "Nao"]
+      }
+    }
+  },
+
+  "btts_1h": {
+    "canonical_name": "1º Tempo - ambas as equipes marcam",
+    "kind": "two_way",
+    "scope": "1st_half",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": [
+        "Both Teams To Score? 1st Half",
+        "Both Teams To Score 1st Half"
+      ],
+      "sides": {
+        "yes": ["Yes"],
+        "no": ["No"]
+      }
+    },
+    "esportenet": {
+      "headers": ["1º Tempo - ambas as equipes marcam"],
+      "sides": {
+        "yes": ["Sim"],
+        "no": ["Não", "Nao"]
+      }
+    }
+  },
+
+  "btts_2h": {
+    "canonical_name": "2º Tempo - ambas as equipes marcam",
+    "kind": "two_way",
+    "scope": "2nd_half",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": [
+        "Both Teams To Score? 2nd Half",
+        "Both Teams To Score 2nd Half"
+      ],
+      "sides": {
+        "yes": ["Yes"],
+        "no": ["No"]
+      }
+    },
+    "esportenet": {
+      "headers": ["2º Tempo - ambas as equipes marcam"],
+      "sides": {
+        "yes": ["Sim"],
+        "no": ["Não", "Nao"]
+      }
+    }
+  },
+
+  "double_chance_ft": {
+    "canonical_name": "Chance Dupla (FT)",
+    "kind": "three_way_compressed",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Double Chance", "1X2 Double Chance"],
+      "sides": {
+        "home_or_draw": ["1X"],
+        "home_or_away": ["12"],
+        "draw_or_away": ["X2"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Chance Dupla"],
+      "sides": {
+        "home_or_draw": ["Casa ou Empate"],
+        "home_or_away": ["Casa ou Fora"],
+        "draw_or_away": ["Empate ou Fora"]
+      }
+    }
+  },
+
+  "double_chance_1h": {
+    "canonical_name": "Chance Dupla (1º Tempo)",
+    "kind": "three_way_compressed",
+    "scope": "1st_half",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Double Chance 1st Half"],
+      "sides": {
+        "home_or_draw": ["Home Or Draw", "Ajax Or Draw"],
+        "home_or_away": ["Home Or Away", "Ajax Or Benfica"],
+        "draw_or_away": ["Draw Or Away", "Draw Or Benfica"]
+      }
+    },
+    "esportenet": {
+      "headers": [
+        "Chance Dupla - 1º tempo",
+        "Chance Dupla 1º tempo",
+        "Chance Dupla 1º Tempo"
+      ],
+      "sides": {
+        "home_or_draw": ["Casa ou Empate"],
+        "home_or_away": ["Casa ou Fora"],
+        "draw_or_away": ["Empate ou Fora"]
+      }
+    }
+  },
+
+  "draw_no_bet_ft": {
+    "canonical_name": "Empate não tem aposta (FT, DNB)",
+    "kind": "two_way",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Draw No Bet", "Pk"],
+      "sides": {
+        "home": ["Home", "Ajax"],
+        "away": ["Away", "Benfica"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Empate não tem aposta"],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "draw_no_bet_1h": {
+    "canonical_name": "Empate não tem aposta (1º Tempo, DNB)",
+    "kind": "two_way",
+    "scope": "1st_half",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Draw No Bet 1st Half"],
+      "sides": {
+        "home": ["Home", "Ajax"],
+        "away": ["Away", "Benfica"]
+      }
+    },
+    "esportenet": {
+      "headers": [
+        "Empate não tem aposta - 1º tempo",
+        "Empate não tem aposta 1º tempo"
+      ],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "odd_even_goals_ft": {
+    "canonical_name": "Total de gols ímpar/par (FT)",
+    "kind": "two_way",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Total Goals Odd/Even", "Total Goals Odd/Even "],
+      "sides": {
+        "odd": ["Odd"],
+        "even": ["Even"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Ímpar/Par", "Total de Gols Ímpar/Par"],
+      "sides": {
+        "odd": ["Ímpar"],
+        "even": ["Par"]
+      }
+    }
+  },
+
+  "odd_even_goals_1h": {
+    "canonical_name": "Total de gols ímpar/par (1º Tempo)",
+    "kind": "two_way",
+    "scope": "1st_half",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Total Goals Odd/Even 1st Half"],
+      "sides": {
+        "odd": ["Odd"],
+        "even": ["Even"]
+      }
+    },
+    "esportenet": {
+      "headers": [
+        "Ímpar/Par - 1º tempo",
+        "Ímpar/Par 1º tempo"
+      ],
+      "sides": {
+        "odd": ["Ímpar"],
+        "even": ["Par"]
+      }
+    }
+  },
+
+  "home_goals_odd_even": {
+    "canonical_name": "Time da casa ímpar/par (gols)",
+    "kind": "two_way_team_prop",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Home Team Goals Odd/Even"],
+      "sides": {
+        "odd": ["Odd"],
+        "even": ["Even"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Casa ímpar/par"],
+      "sides": {
+        "odd": ["Ímpar"],
+        "even": ["Par"]
+      }
+    }
+  },
+
+  "away_goals_odd_even": {
+    "canonical_name": "Time visitante ímpar/par (gols)",
+    "kind": "two_way_team_prop",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Away Team Goals Odd/Even"],
+      "sides": {
+        "odd": ["Odd"],
+        "even": ["Even"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Fora ímpar/par"],
+      "sides": {
+        "odd": ["Ímpar"],
+        "even": ["Par"]
+      }
+    }
+  },
+
+  "first_team_to_score_ft": {
+    "canonical_name": "1º gol (Casa/Fora/Nenhum)",
+    "kind": "three_way",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["First Team To Score"],
+      "sides": {
+        "home": ["Home", "Ajax"],
+        "away": ["Away", "Benfica"],
+        "none": ["Neither"]
+      }
+    },
+    "esportenet": {
+      "headers": ["1º gol", "Primeiro a marcar"],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"],
+        "none": ["Nenhum"]
+      }
+    }
+  },
+
+  "first_team_to_score_1h": {
+    "canonical_name": "1º gol no 1º Tempo (Casa/Fora/Nenhum)",
+    "kind": "three_way",
+    "scope": "1st_half",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["First Team To Score 1st Half"],
+      "sides": {
+        "home": ["Home", "Ajax"],
+        "away": ["Away", "Benfica"],
+        "none": ["Neither"]
+      }
+    },
+    "esportenet": {
+      "headers": ["1º gol - 1º tempo", "Primeiro a marcar - 1º tempo"],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"],
+        "none": ["Nenhum"]
+      }
+    }
+  },
+
+  "total_corners_ft": {
+    "canonical_name": "Total de escanteios (FT)",
+    "kind": "two_way_totals",
+    "scope": "corners_match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "market_group": "Corners Totals",
+      "sides": {
+        "over": ["over"],
+        "under": ["under"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Total de escanteios"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"
+      ],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "corners_1x2_ft": {
+    "canonical_name": "Escanteios 1x2 (quem ganha em escanteios)",
+    "kind": "three_way",
+    "scope": "corners_match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "market_group": "Corners 1X2" },
+    "esportenet": {
+      "headers": ["Escanteios 1x2"],
+      "sides": {
+        "home": ["Casa"],
+        "draw": ["Empate"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "btts_and_totals_ft": {
+    "canonical_name": "Total de gols + ambas marcam (combos)",
+    "kind": "combo_totals_btts",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": [
+        "Total Goals & Both Teams To Score",
+        "Both Teams To Score/Total Goals",
+        "Odd/Even / Total Goals"
+      ]
+    },
+    "esportenet": {
+      "headers": [
+        "Total e ambas as equipes para marcar",
+        "Ambas marcam e total de gols"
+      ]
+    }
+  },
+
+  "winner_and_totals_ft": {
+    "canonical_name": "Vencedor do Encontro e Total de Gols",
+    "kind": "combo_winner_totals",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": [
+        "Match Result & Total Goals",
+        "Winner/Total Goals"
+      ]
+    },
+    "esportenet": { "headers": ["Vencedor do Encontro e Total de Gols"] }
+  },
+
+  "winner_and_btts_ft": {
+    "canonical_name": "Vencedor do Encontro e Ambas Marcam",
+    "kind": "combo_winner_btts",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["Both Teams To Score/Winner"] },
+    "esportenet": { "headers": ["Vencedor do Encontro e Ambas Marcam"] }
+  },
+
+  "half_full_time_ft": {
+    "canonical_name": "Intervalo/Final (HT/FT)",
+    "kind": "combo_ht_ft",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": {
+      "capable": true,
+      "min_books": 2,
+      "note": "9 resultados possíveis; só aplicar cerco se todas as casas tiverem este combo."
+    },
+    "pinnacle": { "special_names": ["Half-Time/Full-Time"] },
+    "esportenet": {
+      "headers": [
+        "Resultado do 1º tempo/Resultado final",
+        "Intervalo/Final"
+      ]
+    }
+  },
+
+  "asian_handicap_ft": {
+    "canonical_name": "Handicap Asiático (FT, 2 vias)",
+    "kind": "two_way_handicap",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [1], "esnet_sport_ids": [102] },
+    "arb": {
+      "capable": true,
+      "min_books": 2,
+      "note": "Para cerco com ESporteNet, usar linhas 0 ou ±0.5 via crosswalk (2 vias e 3 vias)."
+    },
+    "pinnacle": {
+      "source": "periods.num_0.spreads",
+      "period": 0,
+      "line_key": "points",
+      "sides": {
+        "home": ["home"],
+        "away": ["away"]
+      }
+    },
+    "esportenet": { "headers": [], "sides": {} },
+    "esportenet_crosswalk": [
+      {
+        "when_line_abs_in": [0.5],
+        "home_minus_0_5_vs_esnet": {
+          "use_esnet_market": "moneyline_ft",
+          "use_esnet_side": "home",
+          "note": "Home -0.5 (tem que vencer) ≈ Moneyline Home da EsporteNet."
+        },
+        "away_minus_0_5_vs_esnet": {
+          "use_esnet_market": "moneyline_ft",
+          "use_esnet_side": "away",
+          "note": "Away -0.5 (tem que vencer) ≈ Moneyline Away da EsporteNet."
+        },
+        "home_plus_0_5_vs_esnet": {
+          "use_esnet_market": "double_chance_ft",
+          "use_esnet_side": "home_or_draw",
+          "note": "Home +0.5 (casa/empate) ≈ Dupla Chance 1X (home_or_draw) da EsporteNet."
+        },
+        "away_plus_0_5_vs_esnet": {
+          "use_esnet_market": "double_chance_ft",
+          "use_esnet_side": "draw_or_away",
+          "note": "Away +0.5 (fora/empate) ≈ Dupla Chance X2 (draw_or_away) da EsporteNet."
+        }
+      },
+    
+      {
+        "when_line_in": [0],
+        "note": "Linha 0 equivale a DNB; usar draw_no_bet_ft para comparar (cerco 2 vias)."
+      }
+    ],
+    "unsupported_lines": [0.25, 0.75, 1.25, 1.75, 2.25, 2.75]
+  },
+
+  "totals_points_ft": {
+    "canonical_name": "Total de Pontos no Jogo (Over/Under, incl. prorrogação)",
+    "kind": "two_way_totals",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [3, 7], "esnet_sport_ids": [190, 10] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.totals",
+      "period": 0,
+      "line_key": "points",
+      "sides": {
+        "over": ["over"],
+        "under": ["under"]
+      }
+    },
+    "esportenet": {
+      "headers": [
+        "Total de pontos no jogo",
+        "Total de pontos no jogo (incl. prorrogação)",
+        "Total de pontos no jogo (incluindo prolongamento)",
+        "Total de pontos no jogo (incluindo prolongamento ou prorrogação)",
+        "Total de pontos no jogo (incluindo prorrogação)",
+        "Total de pontos no jogo (incluindo prolongamento)"
+      ],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"
+      ],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "handicap_points_ft": {
+    "canonical_name": "Handicap (pontos/linhas, incl. prorrogação)",
+    "kind": "two_way_handicap",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [3, 7], "esnet_sport_ids": [190, 10] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.spreads",
+      "period": 0,
+      "line_key": "points",
+      "sides": {
+        "home": ["home"],
+        "away": ["away"]
+      }
+    },
+    "esportenet": {
+      "headers": [
+        "Handicap (incluindo prolongamento)",
+        "Handicap (incluindo prolongamento ou prorrogação)",
+        "Handicap (incl. prorrogação)"
+      ],
+      "patterns": [
+        "Casa {n}",
+        "Fora {n}"
+      ],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "odd_even_points_ft": {
+    "canonical_name": "Total de pontos ímpar/par (incl. prorrogação)",
+    "kind": "two_way",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [3, 7], "esnet_sport_ids": [190, 10] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": [
+        "Total Points Odd/Even",
+        "Odd/Even (incl. OT)"
+      ],
+      "sides": {
+        "odd": ["Odd"],
+        "even": ["Even"]
+      }
+    },
+    "esportenet": {
+      "headers": [
+        "Ímpar/Par (incluindo prolongamento)",
+        "Total de pontos ímpar/par (incl. prorrogação)",
+        "Ímpar/Par"
+      ],
+      "sides": {
+        "odd": ["Ímpar"],
+        "even": ["Par"]
+      }
+    }
+  },
+
+  "overtime_yesno_ft": {
+    "canonical_name": "Vai ter prorrogação/prolongamento?",
+    "kind": "two_way",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [3, 7], "esnet_sport_ids": [190, 10] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": [
+        "Will There Be Overtime?",
+        "Overtime Played?"
+      ],
+      "sides": {
+        "yes": ["Yes"],
+        "no": ["No"]
+      }
+    },
+    "esportenet": {
+      "headers": [
+        "Vai ter prorrogação",
+        "Vai ter prorrogação?"
+      ],
+      "sides": {
+        "yes": ["Sim"],
+        "no": ["Não", "Nao"]
+      }
+    }
+  },
+
+  "team_total_points_home_ft": {
+    "canonical_name": "Total de pontos do time da casa (incl. prorrogação)",
+    "kind": "two_way_team_totals",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [3, 7], "esnet_sport_ids": [190, 10] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.team_total.home",
+      "line_key": "points",
+      "sides": {
+        "over": ["over"],
+        "under": ["under"]
+      }
+    },
+    "esportenet": {
+      "headers": [
+        "Casa total (incluindo prolongamento)",
+        "Casa total (incl. prolongamento)",
+        "Casa total (incluindo prorrogação)",
+        "Casa total",
+        "Total de pontos da casa"
+      ],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"
+      ],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "team_total_points_away_ft": {
+    "canonical_name": "Total de pontos do time visitante (incl. prorrogação)",
+    "kind": "two_way_team_totals",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [3, 7], "esnet_sport_ids": [190, 10] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.team_total.away",
+      "line_key": "points",
+      "sides": {
+        "over": ["over"],
+        "under": ["under"]
+      }
+    },
+    "esportenet": {
+      "headers": [
+        "Fora total (incluindo prolongamento)",
+        "Fora total (incl. prolongamento)",
+        "Fora total (incluindo prorrogação)",
+        "Fora total",
+        "Total de pontos do visitante"
+      ],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"
+      ],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "moneyline_q1": {
+    "canonical_name": "1º quarto - Vencedor (1x2)",
+    "kind": "three_way",
+    "scope": "q1",
+    "filter": { "pinnacle_sport_ids": [3], "esnet_sport_ids": [190] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["1st Quarter Moneyline", "1st Quarter 1X2"] },
+    "esportenet": {
+      "headers": ["1º quarto - 1x2"],
+      "sides": {
+        "home": ["Casa"],
+        "draw": ["Empate"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "moneyline_q2": {
+    "canonical_name": "2º quarto - Vencedor (1x2)",
+    "kind": "three_way",
+    "scope": "q2",
+    "filter": { "pinnacle_sport_ids": [3], "esnet_sport_ids": [190] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["2nd Quarter Moneyline", "2nd Quarter 1X2"] },
+    "esportenet": {
+      "headers": ["2º quarto - 1x2"],
+      "sides": {
+        "home": ["Casa"],
+        "draw": ["Empate"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "moneyline_q3": {
+    "canonical_name": "3º quarto - Vencedor (1x2)",
+    "kind": "three_way",
+    "scope": "q3",
+    "filter": { "pinnacle_sport_ids": [3], "esnet_sport_ids": [190] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["3rd Quarter Moneyline", "3rd Quarter 1X2"] },
+    "esportenet": {
+      "headers": ["3º quarto - 1x2"],
+      "sides": {
+        "home": ["Casa"],
+        "draw": ["Empate"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "moneyline_q4": {
+    "canonical_name": "4º quarto - Vencedor (1x2)",
+    "kind": "three_way",
+    "scope": "q4",
+    "filter": { "pinnacle_sport_ids": [3], "esnet_sport_ids": [190] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["4th Quarter Moneyline", "4th Quarter 1X2"] },
+    "esportenet": {
+      "headers": ["4º quarto - 1x2"],
+      "sides": {
+        "home": ["Casa"],
+        "draw": ["Empate"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "totals_points_q1": {
+    "canonical_name": "1º quarto - Total de pontos (O/U)",
+    "kind": "two_way_totals",
+    "scope": "q1",
+    "filter": { "pinnacle_sport_ids": [3], "esnet_sport_ids": [190] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["1st Quarter Total Points"] },
+    "esportenet": {
+      "headers": ["1º quarto - Total de pontos"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"
+      ],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "totals_points_q2": {
+    "canonical_name": "2º quarto - Total de pontos (O/U)",
+    "kind": "two_way_totals",
+    "scope": "q2",
+    "filter": { "pinnacle_sport_ids": [3], "esnet_sport_ids": [190] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["2nd Quarter Total Points"] },
+    "esportenet": {
+      "headers": ["2º quarto - Total de pontos"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "totals_points_q3": {
+    "canonical_name": "3º quarto - Total de pontos (O/U)",
+    "kind": "two_way_totals",
+    "scope": "q3",
+    "filter": { "pinnacle_sport_ids": [3], "esnet_sport_ids": [190] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["3rd Quarter Total Points"] },
+    "esportenet": {
+      "headers": ["3º quarto - Total de pontos"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "totals_points_q4": {
+    "canonical_name": "4º quarto - Total de pontos (O/U)",
+    "kind": "two_way_totals",
+    "scope": "q4",
+    "filter": { "pinnacle_sport_ids": [3], "esnet_sport_ids": [190] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["4th Quarter Total Points"] },
+    "esportenet": {
+      "headers": ["4º quarto - Total de pontos"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "moneyline_af_1h": {
+    "canonical_name": "1º tempo - Vencedor (1x2)",
+    "kind": "three_way",
+    "scope": "1st_half",
+    "filter": { "pinnacle_sport_ids": [7], "esnet_sport_ids": [10] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": [
+        "1st Half Moneyline",
+        "1st Half 1X2"
+      ]
+    },
+    "esportenet": {
+      "headers": ["1º tempo - 1x2"],
+      "sides": {
+        "home": ["Casa"],
+        "draw": ["Empate"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "moneyline_af_2h": {
+    "canonical_name": "2º tempo - Vencedor (1x2)",
+    "kind": "three_way",
+    "scope": "2nd_half",
+    "filter": { "pinnacle_sport_ids": [7], "esnet_sport_ids": [10] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": [
+        "2nd Half Moneyline",
+        "2nd Half 1X2"
+      ]
+    },
+    "esportenet": {
+      "headers": ["2º tempo - 1x2"],
+      "sides": {
+        "home": ["Casa"],
+        "draw": ["Empate"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "totals_points_af_1h": {
+    "canonical_name": "1º tempo - Total de pontos (O/U)",
+    "kind": "two_way_totals",
+    "scope": "1st_half",
+    "filter": { "pinnacle_sport_ids": [7], "esnet_sport_ids": [10] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["1st Half Total Points"] },
+    "esportenet": {
+      "headers": ["1º tempo - Total de pontos"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "totals_points_af_2h": {
+    "canonical_name": "2º tempo - Total de pontos (O/U)",
+    "kind": "two_way_totals",
+    "scope": "2nd_half",
+    "filter": { "pinnacle_sport_ids": [7], "esnet_sport_ids": [10] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": { "special_names": ["2nd Half Total Points"] },
+    "esportenet": {
+      "headers": ["2º tempo - Total de pontos"],
+      "patterns": [
+        "Mais de {n}",
+        "Menos de {n}"],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "volleyball_match_winner": {
+    "canonical_name": "Vencedor do encontro (Vôlei, 2 vias)",
+    "kind": "two_way",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.money_line",
+      "period": 0,
+      "sides": {
+        "home": ["home"],
+        "away": ["away"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Vencedor do encontro"],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "volleyball_handicap_points_ft": {
+    "canonical_name": "Handicap de pontos (Vôlei)",
+    "kind": "two_way_handicap",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.spreads",
+      "period": 0,
+      "line_key": "points",
+      "sides": {
+        "home": ["home"],
+        "away": ["away"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Handicap de pontos"],
+      "patterns": ["Casa {n}", "Fora {n}"],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "volleyball_totals_points_ft": {
+    "canonical_name": "Total de pontos no jogo (Vôlei, O/U)",
+    "kind": "two_way_totals",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "source": "periods.num_0.totals",
+      "period": 0,
+      "line_key": "points",
+      "sides": {
+        "over": ["over"],
+        "under": ["under"]
+      }
+    },
+    "esportenet": {
+      "headers": ["Total de pontos no jogo"],
+      "patterns": ["Mais de {n}", "Menos de {n}"],
+      "sides": {
+        "over": ["Mais de"],
+        "under": ["Menos de"]
+      }
+    }
+  },
+
+  "volleyball_set1_winner": {
+    "canonical_name": "1º set - vencedor",
+    "kind": "two_way",
+    "scope": "set1",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Set 1 Winner", "1st Set Winner"]
+    },
+    "esportenet": {
+      "headers": ["1º set - vencedor"],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "volleyball_set2_winner": {
+    "canonical_name": "2º set - vencedor",
+    "kind": "two_way",
+    "scope": "set2",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Set 2 Winner", "2nd Set Winner"]
+    },
+    "esportenet": {
+      "headers": ["2º set - vencedor"],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "volleyball_set3_winner": {
+    "canonical_name": "3º set - vencedor",
+    "kind": "two_way",
+    "scope": "set3",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Set 3 Winner", "3rd Set Winner"]
+    },
+    "esportenet": {
+      "headers": ["3º set - vencedor"],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "volleyball_set4_winner": {
+    "canonical_name": "4º set - vencedor",
+    "kind": "two_way",
+    "scope": "set4",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Set 4 Winner", "4th Set Winner"]
+    },
+    "esportenet": {
+      "headers": ["4º set - vencedor"],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "volleyball_set5_winner": {
+    "canonical_name": "5º set - vencedor",
+    "kind": "two_way",
+    "scope": "set5",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Set 5 Winner", "5th Set Winner"]
+    },
+    "esportenet": {
+      "headers": ["5º set - vencedor"],
+      "sides": {
+        "home": ["Casa"],
+        "away": ["Fora"]
+      }
+    }
+  },
+
+  "volleyball_will_there_be_set4": {
+    "canonical_name": "Vai ter um 4º set?",
+    "kind": "two_way",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Will There Be A 4th Set?"]
+    },
+    "esportenet": {
+      "headers": ["Vai ter um 4º set"],
+      "sides": {
+        "yes": ["Sim"],
+        "no": ["Não", "Nao"]
+      }
+    }
+  },
+
+  "volleyball_will_there_be_set5": {
+    "canonical_name": "Vai ter um 5º set?",
+    "kind": "two_way",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": true, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Will There Be A 5th Set?"]
+    },
+    "esportenet": {
+      "headers": ["Vai ter um 5º set"],
+      "sides": {
+        "yes": ["Sim"],
+        "no": ["Não", "Nao"]
+      }
+    }
+  },
+
+  "volleyball_correct_score_ft": {
+    "canonical_name": "Placar correto (sets)",
+    "kind": "correct_score",
+    "scope": "match",
+    "filter": { "pinnacle_sport_ids": [5], "esnet_sport_ids": [177] },
+    "arb": { "capable": false, "min_books": 2 },
+    "pinnacle": {
+      "special_names": ["Correct Score", "Match Score"]
+    },
+    "esportenet": {
+      "headers": ["Placar correto"]
+    }
+  }
+}

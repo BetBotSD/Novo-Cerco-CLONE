@@ -1,0 +1,85 @@
+{
+  "groups": {
+    "three_way_1x2": {
+      "description": "Mercados 1X2 (casa, empate, fora)",
+      "markets": ["moneyline_ft", "moneyline_1h", "moneyline_2h"],
+      "sides": ["home", "draw", "away"],
+      "require_same_scope": true
+    },
+
+    "two_way_yes_no": {
+      "description": "Mercados sim/não (BTTS, marca em ambos tempos, etc.)",
+      "markets": ["btts_ft", "btts_1h", "btts_2h"],
+      "sides": ["yes", "no"],
+      "require_same_scope": true
+    },
+
+    "two_way_over_under": {
+      "description": "Totais Over/Under na mesma linha",
+      "markets": [
+        "totals_goals_ft",
+        "totals_goals_1h",
+        "totals_goals_2h",
+        "team_total_goals_home_ft",
+        "team_total_goals_away_ft",
+        "total_corners_ft"
+      ],
+      "sides": ["over", "under"],
+      "require_same_line": true,
+      "require_same_scope": true
+    },
+
+    "dnb_home_away": {
+      "description": "Empate devolve (DNB) – cobre casa e fora",
+      "markets": ["draw_no_bet_ft"],
+      "sides": ["home", "away"],
+      "settlement": "push_on_draw"
+    }
+  },
+
+  "advanced_patterns": [
+    {
+      "name": "btts_yes_and_over_vs_under",
+      "description": "BTTS Sim + Over X vs Under X seco",
+      "legs": [
+        {
+          "role": "combo",
+          "market": "btts_and_totals_ft",
+          "conditions": {
+            "btts": "yes",
+            "totals_relation": "over"
+          }
+        },
+        {
+          "role": "hedge",
+          "market": "totals_goals_ft",
+          "side": "under"
+        }
+      ],
+      "notes": "Padrão de cerco estruturado; exige simulação de cenários."
+    },
+
+    {
+      "name": "ml_home_vs_ah_away_plus_0_5",
+      "description": "CASA (Moneyline EsporteNet) x FORA +0,5 (Asian Handicap Pinnacle)",
+      "legs": [
+        {
+          "role": "home_ml",
+          "market": "moneyline_ft",
+          "side": "home"
+        },
+        {
+          "role": "away_plus_0_5",
+          "market": "asian_handicap_ft",
+          "side": "away",
+          "conditions": {
+            "line_abs": 0.5,
+            "line_sign": "positive"
+          }
+        }
+      ],
+      "settlement_model": "three_way_covered_by_two_legs",
+      "notes": "Cobre as três saídas do jogo: vitória da casa ↔ ML; empate/fora ↔ HA +0,5 visitante. Usa a mesma lógica de stakes de cerco 2 vias (soma de 1/odds < 1)."
+    }
+  ]
+}
